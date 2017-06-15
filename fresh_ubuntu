@@ -1,0 +1,29 @@
+settings:
+change to terminator: exo-preferred-applications
+change tiling: window manager
+enable color in terminal: edit ~/.bashrc force_color_prompt=yes
+set synapse as super: settings->keyboard->application shortcuts->add
+turn tab into ctrl: setxkbmap -option "ctrl:nocaps"
+up font: appearance -> fonts 11
+fix dropbox icon: edit /usr/bin/dropbox and add os.environ['DBUS_SESSION_BUS_ADDRESS'] = "" 
+enable cups printing (for csail printers)
+maximus
+
+eclipse settings:
+	enable cpplint
+	change cpplint.py default filters to match rrg:
+		_DEFAULT_FILTERS = ['-build/include_alpha','-build/c++11','-build/header_guard','-build/include_order']
+	enable Save automatically before build'
+	insert spaces instead of tabs (tab space 2)
+	disable annotations -> errors
+	add symbol (under path and symbols): __cplusplus with the value 201103L
+	add -std=c++11 to Providers CDT compiler settings
+
+downloads:
+terminator
+chrome
+dropbox
+synapse
+sublime
+eclipse
+matlab
