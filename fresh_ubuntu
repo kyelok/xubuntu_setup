@@ -7,7 +7,7 @@ turn tab into ctrl: setxkbmap -option "ctrl:nocaps"
 up font: appearance -> fonts 11
 fix dropbox icon: edit /usr/bin/dropbox and add os.environ['DBUS_SESSION_BUS_ADDRESS'] = "" 
 enable cups printing (for csail printers)
-maximus
+add 'xfce4-screenshooter -r' to Keyboard->Application shortcuts
 
 eclipse settings:
 	enable cpplint
