@@ -30,3 +30,6 @@ eclipse settings:
 	add -std=c++11 to Providers CDT compiler settings
 
 
+clock format:
+	%b %d | %I:%M %p
+
