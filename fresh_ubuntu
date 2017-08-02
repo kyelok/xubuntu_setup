@@ -1,10 +1,20 @@
+install:
+sudo apt-get install terminator synapse
+
+downloads:
+chrome
+dropbox
+sublime
+eclipse
+matlab
+
 settings:
 change to terminator: exo-preferred-applications
-change tiling: window manager
+change tiling: window manager (Tile Window to the Left: Ctrl Alt Left, Tile window to right: Ctrl Alt Right)
 enable color in terminal: edit ~/.bashrc force_color_prompt=yes
 set synapse as super: settings->keyboard->application shortcuts->add
 turn tab into ctrl: setxkbmap -option "ctrl:nocaps"
-up font: appearance -> fonts 11
+up font: appearance -> fonts 10
 fix dropbox icon: edit /usr/bin/dropbox and add os.environ['DBUS_SESSION_BUS_ADDRESS'] = "" 
 enable cups printing (for csail printers)
 add 'xfce4-screenshooter -r' to Keyboard->Application shortcuts
@@ -19,11 +29,4 @@ eclipse settings:
 	add symbol (under path and symbols): __cplusplus with the value 201103L
 	add -std=c++11 to Providers CDT compiler settings
 
-downloads:
-terminator
-chrome
-dropbox
-synapse
-sublime
-eclipse
-matlab
+
