@@ -14,7 +14,7 @@ change tiling: window manager (Tile Window to the Left: Ctrl Alt Left, Tile wind
 enable color in terminal: edit ~/.bashrc force_color_prompt=yes
 set synapse as super: settings->keyboard->application shortcuts->add
 turn tab into ctrl: setxkbmap -option "ctrl:nocaps"
-up font: appearance -> fonts 10
+up font: appearance -> fonts 10, custom DPI -> 98
 fix dropbox icon: edit /usr/bin/dropbox and add os.environ['DBUS_SESSION_BUS_ADDRESS'] = "" 
 enable cups printing (for csail printers)
 add 'xfce4-screenshooter -r' to Keyboard->Application shortcuts
