@@ -21,7 +21,7 @@ add 'xfce4-screenshooter -r' to Keyboard->Application shortcuts
 
 eclipse settings:
 	increase Indexer cache limits (70% of Heap and 2000 MB)
-	change code style/formatter to spaces only (2 spaces)
+	change code style/formatter to spaces only (2 spaces) i.e., change K & R formatter
 	add additional software via plugin (egit, CppStyle), apt (clang-format)
 	download cpplint.py and change cpplint.py default filters to match rrg:
 		_DEFAULT_FILTERS = ['-build/include_alpha','-build/c++11','-build/header_guard','-build/include_order']
@@ -29,7 +29,7 @@ eclipse settings:
 	insert spaces instead of tabs (tab space 2)
 	disable annotations -> errors
 	add symbol (under path and symbols): __cplusplus with the value 201103L
-	add -std=c++11 to Providers CDT compiler settings
+	add -std=c++11 to Providers CDT compiler settings	
 
 
 clock format:
