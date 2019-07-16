@@ -22,7 +22,8 @@ add 'xfce4-screenshooter -r' to Keyboard->Application shortcuts
 eclipse settings:
 	increase Indexer cache limits (70% of Heap and 2000 MB)
 		make sure eclipse.ini has -Xmx2000m
-	change code style/formatter to spaces only (2 spaces) i.e., change K & R formatter
+	change indentation to use 2 spaces for tabs
+	change formatter to spaces only (2 spaces) i.e., change default K & R formatter, and base it cppstyle(klang-style)
 	add additional software via plugin (egit, CppStyle), apt (clang-format)
 	download cpplint.py and change cpplint.py default filters to match rrg:
 		_DEFAULT_FILTERS = ['-build/include_alpha','-build/c++11','-build/header_guard','-build/include_order']
