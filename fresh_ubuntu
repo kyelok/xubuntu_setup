@@ -26,7 +26,7 @@ eclipse settings:
 	change formatter to spaces only (2 spaces) i.e., change default K & R formatter, and base it cppstyle(klang-style)
 	add additional software via plugin (egit, CppStyle), apt (clang-format)
 	download cpplint.py and change cpplint.py default filters to match rrg:
-		_DEFAULT_FILTERS = ['-build/include_alpha','-build/c++11','-build/header_guard','-build/include_order']
+		_DEFAULT_FILTERS = ['-build/include_alpha','-build/c++11','-build/header_guard','-build/include_order', '-runtime/references']
 	enable Save automatically before build'
 	insert spaces instead of tabs (tab space 2)
 	disable annotations -> errors
